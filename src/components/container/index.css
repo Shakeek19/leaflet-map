@@ -1,0 +1,137 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressbar-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-card {
+  padding: 20px;
+  margin: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 0 8px #0000001a;
+}
+
+.container-card-title {
+  font-family: "Calibri";
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+.container-card-subtitle {
+  font-family: "Calibri";
+  color: #b0b0b0;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.time-filters {
+  margin: 10px 0;
+}
+
+.time-filters button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #b0b0b0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.time-filters .active {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+.leader-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.leader-info {
+  flex: 3;
+}
+
+.leader-title {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Calibri";
+}
+
+.leader-tech {
+  font-size: 14px;
+  color: #b0b0b0;
+  font-family: "Calibri";
+  font-weight: bold;
+}
+
+.progress-section {
+  flex: 2;
+  padding: 20px 50px;
+}
+
+.progress-percent {
+  margin-left: 10px;
+}
+
+.progress-bar-container {
+  margin: 0 8px 0 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 5px 0 0 0;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 5s ease;
+}
+
+.icon-div {
+  padding: 20px;
+  height: 20px;
+  width: 20px;
+  margin: 8px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+}
+
+.icon-div .img {
+  position: relative;
+  height: 20px;
+}
+
+.right-arrow-button {
+  border: none;
+  background-color: #f2f2f2;
+  color: #000000;
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+}
+
+.right-arrow-button .img {
+  border: none;
+  height: 20px;
+  padding: 2px;
+}

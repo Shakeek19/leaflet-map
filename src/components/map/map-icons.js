@@ -2,7 +2,7 @@ import L from 'leaflet';
 
 export const computerIcon = (size) => {
     return new L.Icon({
-        iconUrl: require('../assets/marker-icon.png'),
+        iconUrl: require('../../assets/marker-icon.png'),
         iconSize: size,
         popupAnchor: [0, -size[1] / 2],
     });
@@ -10,7 +10,7 @@ export const computerIcon = (size) => {
 
 export const centerIcon = (size) => {
     return new L.Icon({
-        iconUrl: require('../assets/switch.png'),
+        iconUrl: require('../../assets/switch.png'),
         iconSize: size,
         popupAnchor: [0, -size[1] / 2],
     });
